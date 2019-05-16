@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  background-color: white;
+  width: 30vw;
+  height: 30px;
+}
+
+.search-container {
+  width: 100vw;
+  text-align: center;
+}
+
+.giphy-img {
+  height: 15%;
+  margin-bottom: 35px;
+}
+
+.search-input {
+  padding: 5px 10px 0px 5px;
+  background-color: white;
+  width: 90%;
+  outline: 0;
+  border: none;
+  height: 20px;
+}
+
+.results {
+  color: white;
+}
+
+.submit-btn {
+  margin-left: 10px;
+  height: 32px;
+  color: black;
+  font-weight: bold;
+  background-color: #2bfc9b;
+  border: none;
+  outline: 0;
+}
